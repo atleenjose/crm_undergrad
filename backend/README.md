@@ -8,10 +8,12 @@
    cd crm_undergrad/backend
 
 2. Create and activate a virtual environment:
+    ```bash
     python3 -m venv venv
     source venv/bin/activate   # Mac/Linux
 
 3. Install dependencies:
+    ```bash
     pip install -r requirements.txt
 
 4. Set up environment variables:
@@ -22,10 +24,12 @@
     Make sure to add your own service key locally before running the project.
 
 6. Run the project:
+    ```bash
     python app.py
 
 7. Notes
     Python 3.9+ recommended
     Deactivate the virtual environment when done:
+        ```bash
         deactivate
     
